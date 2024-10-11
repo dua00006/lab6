@@ -94,19 +94,29 @@
     
     
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
         }
-
         th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
+            border: 2px solid #333;
+            padding: 12px;
+            text-align: center;
         }
-
         th {
+            background-color: #444;
+            color: white;
+        }
+        td {
             background-color: #f2f2f2;
+        }
+        table tr:nth-child(even) td {
+            background-color: #e0e0e0;
         }
     </style>
     <table role="table" aria-label="Real Estate Sales Data">
